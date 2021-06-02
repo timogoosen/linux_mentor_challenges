@@ -4,6 +4,6 @@ services:
 
     build: .
 
-    entrypoint: ["ping", "-c", "3333332", "devops-tutorials.club"]
+    entrypoint: ["ping", "-c", "3333332", "hicetnunc.xyz"] # Just a random domain that is pingable and not easy to find like google.com
 
     restart: always
