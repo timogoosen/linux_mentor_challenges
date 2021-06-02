@@ -1,0 +1,9 @@
+version: '3'
+services:
+  testing-stuff:
+
+    build: .
+
+    entrypoint: ["ping", "-c", "3333332", "devops-tutorials.club"]
+
+    restart: always
